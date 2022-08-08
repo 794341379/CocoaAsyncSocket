@@ -1,19 +1,10 @@
 Pod::Spec.new do |s|
   s.name     = 'CocoaAsyncSocket'
   s.version  = '7.6.6'
-  s.license  = { :type => 'public domain', :text => <<-LICENSE
-Public Domain License
-
-The CocoaAsyncSocket project is in the public domain.
-
-The original TCP version (AsyncSocket) was created by Dustin Voss in January 2003.
-Updated and maintained by Deusty LLC and the Apple development community.
-                 LICENSE
-               }
+  s.license  = { :type => 'public domain',:file => 'LICENSE'}
   s.summary  = 'Asynchronous socket networking library for Mac and iOS.'
   s.homepage = 'https://github.com/794341379/CocoaAsyncSocket'
   s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
-
   s.source   = { :git => 'https://github.com/794341379/CocoaAsyncSocket.git',
                  :tag => "#{s.version}" }
 
